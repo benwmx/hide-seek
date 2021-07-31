@@ -5,7 +5,7 @@ let data = {
 };
 const retrieveData = () => {
   data = JSON.parse(localStorage.getItem('userData'));
-  document.getElementById('name').value = data.name;
+  document.getElementById('name').value = data.email;
   document.getElementById('email').value = data.email;
   document.getElementById('message').value = data.message;
 };

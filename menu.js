@@ -16,7 +16,7 @@ const closeMenu = () => {
     menuItem[item].classList.remove('menu-item');
   }
   menu.classList.remove('mobile-menu');
-  document.querySelector('nav > img').classList.toggle('visible');
+  document.querySelector('img').classList.toggle('visible');
   document.querySelector('nav > div').classList.toggle('visible');
 };
 
